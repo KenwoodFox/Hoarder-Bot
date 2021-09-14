@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Don't ignore...
+!hoarder_bot/
+!requirements/
+!resources/
+!bin/
+!setup.py
+!README.md
+!LICENSE
+
+# Testing
+!.flake8
+!tests/

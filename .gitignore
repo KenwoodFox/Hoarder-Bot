@@ -1,0 +1,10 @@
+# Python artifacts
+*.pyc
+Pipfile
+Pipfile.lock
+
+# Config/Secrets
+config.ini
+
+# Dev
+.vscode

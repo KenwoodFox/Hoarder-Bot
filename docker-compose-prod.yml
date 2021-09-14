@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  email_blaster:
+    image: ghcr.io/KenwoodFox/HoarderBot:release
+    restart: "no"
+    command: "true"
+    volumes:
+      # Mount ~/HoarderBot-config on the host to /config inside the container
+      - ~/HoarderBot-config:/config:rw
